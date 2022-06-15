@@ -1,0 +1,129 @@
+*{
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media(max-width: 768px) 
+{
+
+
+*{
+    font-family:comfort ;
+    background: linear-gradient(#371247, rgb(28, 27, 44))
+}
+@font-face {
+    font-family:comfort;
+    src: url('Comfortaa-Regular.ttf');
+}
+
+@font-face {
+    font-family:teko ;
+    src: url(Teko-Medium.ttf);
+}
+body{
+    background-color: ;
+}
+header{
+    width: 100vw;
+    display: flex;
+    flex-direction:column;
+    background: none;
+    margin-left: 1rem;
+}
+
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+#location{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: #ccc;
+    font-family: teko;
+    word-spacing: 0.2rem;
+    background:none;
+
+}
+
+#heading{
+    width: 100%;
+    font-size: 2rem;
+    background: none;
+   
+    color: #fff;
+}
+
+#icon{
+    font-size: 8rem;
+    color:goldenrod
+}
+
+
+#pre-cond{
+background: none;
+font-size: 2rem;
+margin: 0;
+display: flex;
+flex-direction: column;
+text-align: center;
+gap: 0.5rem;
+text-transform: capitalize;
+}
+#pre-temp{
+    font-size: 8rem;
+    font-family: teko;
+}
+span{
+    background: none;
+}
+
+#content{
+width: 100%;
+display: flex;
+flex-direction: row;
+font-size: 2rem;
+background: none;
+justify-content: space-around;
+}
+
+#sun, #humidity, #rain{
+    background: none;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-items: center; 
+} 
+
+#contenticon, i{
+    background: none;
+    color: yellow;
+    font-size: 2.5rem;
+}
+
+#contenttemp{
+    font-size: 2.5rem;
+    font-family: teko;
+}
+
+#contentvalue {
+    font-size: 1.5rem;
+    color: #ccc;
+}
+
+
+
+
+
+
+
+}
